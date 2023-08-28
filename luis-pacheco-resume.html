@@ -1,0 +1,606 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Luis Pacheco  - Tech Lead &amp; Software Engineer</title>
+	<style>
+  	:root {
+  --accent: #32842c;
+  --anchor-color: #2C85B1;
+  --blue:#2C85B1;
+  --copy-color-light: #999;
+  --copy-color: #242424;
+  --grey:#999999;
+  --light-grey:#ededed;
+  --white:#FFFFFF;
+  --base-font-size: 12pt;
+  --spacing-double: 1rem;
+  --spacing-small: .1rem;
+  --spacing: .25rem;
+}
+@media (min-width: 567px) {
+  :root {
+    --spacing-double: 1.5rem;
+    --spacing-small: .25rem;
+    --spacing: .75rem;
+  }
+}
+@media print {
+  :root {
+    --anchor-color: #000000;
+    --base-font-size: 9pt;
+    --copy-color-light: #000000;
+    --copy-color: #000000;
+  }
+}
+
+body {
+  color: var(--copy-color);
+  display: flex;
+  font: var(--base-font-size) "Open Sans", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  line-height: 1.25;
+  -webkit-print-color-adjust: exact;
+}
+
+em {
+  color: var(--grey);
+}
+
+p {
+  font-size: 90%;
+}
+
+a {
+  color: var(--anchor-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+section {
+  margin: var(--spacing) 0 var(--spacing-double);
+}
+
+blockquote {
+  margin-bottom: 0 0 var(--spacing);
+}
+
+#resume {
+  background: var(--white);
+  margin: var(--spacing) var(--spacing-double);
+  max-width: 1200px;
+}
+
+section.heading header h1 {
+  display: flex;
+  align-items: center;
+  font-size: 300%;
+  font-weight: 300;
+  margin: 0 0 15px 0;
+}
+section.heading header h1 img{
+  border-radius: 50%;
+  width: 100px;
+  margin-right: 16px;
+}
+section.heading header h2 {
+  font-size: 140%;
+  font-weight: 400;
+  margin: 0;
+}
+section.heading header h2::after {
+  display: none;
+}
+section.heading header .contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading header .contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+section.heading header address {
+  font-size: 90%;
+  font-style: normal;
+  padding-bottom: var(--spacing);
+}
+section.heading .profiles {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading .profiles {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+section.heading .profiles .profile.print {
+  display: none;
+}
+@media print {
+  section.heading .profiles .profile.print {
+    display: block;
+  }
+}
+section.heading .profiles strong {
+  margin: 0 var(--spacing-small) 0 0;
+}
+section.heading .profiles span {
+  margin: 0 var(--spacing-double) 0 0;
+}
+
+section.experience .item {
+  border-bottom: none;
+  margin: 0 0 0.25em;
+  padding: 0 0 0.25em;
+}
+section.experience .item:last-child {
+  border-bottom: none;
+}
+section.experience .item header a,
+section.experience .item header h3 {
+  color: var(--copy-color);
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+}
+@media (max-width: 566px) {
+  section.experience .item header .subhead {
+    flex-direction: column;
+    margin-bottom: var(--spacing-double);
+  }
+}
+section.experience .item .summary p {
+  margin-top: var(--spacing);
+}
+section.experience .item .summary p:first-child {
+  margin-top: var(--spacing-small);
+}
+section.experience .item .summary p:last-child {
+  margin-bottom: var(--spacing-small);
+}
+section.experience .item .position {
+  color: var(--copy-color-light);
+  font-size: 100%;
+  font-weight: 500;
+  margin: var(--spacing-small) 0;
+}
+.company,
+section .item .startDate,
+section .item .endDate {
+  color: var(--copy-color-light);
+}
+section.skills .item {
+  margin: 0;
+  padding: 0 0 var(--spacing);
+}
+section.skills .item:first-child {
+  margin-top: var(--spacing);
+}
+section.skills .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.skills .item .name {
+  display: block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.skills .item .keywords {
+  display: block;
+  font-size: 90%;
+  vertical-align: top;
+}
+
+section.volunteering .item .company {
+
+}
+section.volunteering .item header .subhead {
+  margin-top: var(--spacing);
+}
+section.projects .item strong {
+  color: var(--copy-color-light);
+  font-weight: 600;
+  display: inline-block;
+  padding-top: var(--spacing);
+}
+section.awards .item .title {
+  font-weight: 600;
+}
+section.publications .item .name {
+  font-weight: 600;
+}
+section.languages .language-item {
+  align-items: baseline;
+  display: flex;
+  justify-content: start;
+}
+section.languages .language-item:first-child {
+  margin-top: var(--spacing);
+}
+section.languages .language-item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.languages .language-item .language {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.languages .language-item .fluency {
+  color: var(--copy-color-light);
+  font-style: italic;
+}
+
+section.interests .item {
+  margin-bottom: var(--spacing);
+}
+section.interests .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.interests .item .name {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+section.references .item blockquote {
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: var(--spacing);
+}
+section.references .item .name {
+  color: var(--copy-color-light);
+}
+
+section h2 {
+  color: var(--accent);
+  font-size: 135%;
+  font-weight: 400;
+  margin: 0 0 var(--spacing-double);
+  position: relative;
+  text-transform: uppercase;
+}
+section h2::after {
+  background: var(--accent);
+  bottom: -10px;
+  content: " ";
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 2.5rem;
+}
+section header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+section.experience .item .highlights, section.volunteering .highlights, section.projects .highlights,
+section.projects .keywords,
+section.projects .roles, section.education .item .courses {
+  font-size: 90%;
+  line-height: 1.3;
+  list-style: square;
+  margin: var(--spacing-small) 0 var(--spacing);
+  padding-left: var(--spacing-double);
+}
+
+section.experience .item, section.volunteering .item, section.projects .item, section.education .item, section.awards .item, section.publications .item, section.interests .item, section.references .item {
+  page-break-inside: avoid;
+}
+
+@media print {
+  section.heading .profiles .profile:not(.print), section.publications .item .website {
+    display: none;
+  }
+}
+
+section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 567px) {
+  section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+    flex-direction: row;
+  }
+}
+
+@media print {
+  body {
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+        <script src="https://kit.fontawesome.com/540f0e0fcd.js" crossorigin="anonymous"></script>
+	</head>
+  <body>	
+    <div id="resume">
+      <section id="heading" class="heading">
+        <header>
+          <h1>Luis Pacheco</h1>
+          <h2>Tech Lead &amp; Software Engineer</h2>
+          <div class="summary"><p>Curious by nature and problem solver at heart, driven by technology and continuously looking to innovate. A leader who strives for efficiency and zero technical debt, an engineer who drives projects across the finish line.</p></div>
+        </header>
+      
+        <div class="profiles">
+          <div class="profile">
+              <strong class="network">
+                  <i class="fa-solid fa-envelope"></i>
+              </strong>
+              <span class="username">
+                  <a href="mailto:lept.fl.us@gmail.com">lept.fl.us@gmail.com</a>
+              </span>
+          </div>
+              <div class="profile">
+                  <strong class="network">
+                      <i class="fa-solid fa-phone"></i>
+                  </strong>
+                  <span class="username">
+                  <a href="tel:561-667-1506">561-667-1506</a>
+              </span>
+              </div>
+              <div class="profile">
+                  <strong class="network">
+                      <i class="fa-brands fa-chrome"></i>
+                  </strong>
+                  <span class="username">
+                  <a href="http://luispacheco.dev">luispacheco.dev</a>
+              </span>
+              </div>
+          <div class="profile">
+              <strong class="network">
+                      <i class="fa-brands fa-linkedin"></i>
+              </strong>
+                    <span class="username">
+                            <a href="https://www.linkedin.com/in/lept/" target="external">Linkedin</a>
+                    </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://www.linkedin.com/in/lept/
+            </span>
+          </div>
+          <div class="profile">
+              <strong class="network">
+                          <i class="fa-brands fa-github"></i>
+              </strong>
+                    <span class="username">
+                            <a href="https://github.com/lept-github" target="external">Github</a>
+                    </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://github.com/lept-github
+            </span>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <div class="item">
+          <h2>Skills</h2>
+          <div class="name">Technical Skills</div>
+          <div class="keywords">
+            HTML,
+            CSS,
+            Javascript,
+            ReactJs,
+            React-Query,
+            Redux,
+            Zustand,
+            JSX,
+            Storybook,
+            NX,
+            Axios,
+            Jest,
+            RTL,
+            JSON,
+            RESTful APIs,
+            i18n,
+            npm,
+            yarn,
+            MUI,
+            Bootstrap,
+            Less,
+            SCSS,
+            JQuery,
+            Kendo UI,
+            MVC,
+            OOP,
+            NodeJs,
+            ExpressJs,
+            PHP,
+            Laravel,
+            ZF,
+            MySQL,
+            Git,
+            Bitbucket,
+            Jira.
+          </div>
+        </div>
+        <div class="item">
+          <div class="name">Leadership &amp; Soft Skills</div>
+          <div class="keywords">
+            Customer Focus,
+            Mentoring and Coaching,
+            Strategic Thinking,
+            Empathy,
+            Collaboration,
+            Project Management,
+            Conflict Resolution,
+            Adaptability,
+            Risk Management,
+            Technical Documentation,
+            Continuous Learning,
+            Agile Methodologies,
+            Goal Setting,
+            Active Listening.
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <section class="item">
+          <h2>Experience</h2>
+          <header>
+            <h3 class="name">Sr. Software Engineer</h3>
+            <div class="subhead">
+            <span class="company">Crowdstrike</span>
+            <small class="dates">
+                <span class="startDate">Jul 2022</span>
+                <span class="endDate">- Present</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>CrowdStrike’s mission is to stop breaches. Since inception, its market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyber attacks. Working on large scale distributed systems, processing over 1 trillion events a day.</p></div>
+          <ul class="highlights">
+            <li>Technical frontend lead, providing guidance and expertise to my team. Steering the successful execution of numerous high-impact projects, resulting in significant achievements and positive outcomes. Noteworthy is the successful revamp of key portions of the Predator platform, which led to remarkable reductions in page load times and significantly increasing analyst satisfaction.</li>
+            <li>Took on the role of mentor to fellow engineers, through 1-on-1 sessions and code reviews, offered valuable guidance and insights on effective approaches to tackle challenges. Initiated and facilitated consensus building, fostering collaborative decision-making, increasing team&#x27;s velocity and quality of code as result.</li>
+            <li>Applied astute analysis to identify trends and patterns within our backlog, allowing for the discovery of issue clusters. Then, led the team in implementing solutions that maximized the return on time invested, leading to efficient issue resolution and enhanced overall team productivity.</li>
+            <li>Engaged in collaboration with stakeholders, designers, and engineers. Setting expectations, removing blockers and ensuring the punctual delivery of new features. Demonstrated effective communication and planning by keeping all involved parties informed about project progress, and calling out any potential conflicts and/or dependencies.</li>
+            <li>Actively contributed as a hands-on individual in the product team, spearheading the development of new features using EmberJS.</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Sr. Software Engineer II</h3>
+            <div class="subhead">
+            <span class="company">Bluehost</span>
+            <small class="dates">
+                <span class="startDate">Feb 2021</span>
+                <span class="endDate">- Jul 2022</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>Bluehost is a leading web hosting solutions company. Since its founding in 2003 it has continually innovated new ways to empower people to fully harness the web. Based in Utah, Bluehost provides tools to millions of users throughout the world so anyone, novice or pro, can get on the web and thrive.</p></div>
+          <ul class="highlights">
+            <li>Led frontend team of 3 engineers, driving the successful delivery of multiple impactful projects. Notably, the development of cutting-edge React component library, embraced by all engineers across the organization, resulting in more code reusability and consistency in user experience.</li>
+            <li>Mentored junior engineers, engaging in weekly 1-on-1s, hackathons, lunch-and-learn sessions, code reviews, and promoting knowledge sharing. Offering valuable constructive feedback, Guiding them in refining their craft. Resulting in the career growth of two colleagues.</li>
+            <li>Architectural design and POC for Zustand state management library implementation using the Facade pattern. This innovative approach significantly improved performance and streamlined data flow. As a result of its success, multiple teams within the organization embraced this solution.</li>
+            <li>Strategic thinking guided the development of a comprehensive technology roadmap and backlog, aligning the organization&#x27;s long-term goals with the adoption of emerging technologies and frameworks. Facilitating the enhancement of product capabilities and scalability.</li>
+            <li>Created detailed project plans, defining milestones, and setting realistic goals and timelines. Collaborating with stakeholders, designers and engineers in cross-functional teams. Kept all relevant parties informed about project progress, updates, and potential impacts on schedules.</li>
+            <li>Development of new features for SSL and Email products, where React, React-Router, React-Redux, Axios, were some of the basic libraries and packages used. As well as creation and maintenance of unit tests written in Jest and React-Testing-Library.</li>
+            <li>Acted as the primary point of contact for critical production incidents, demonstrating strong problem-solving skills to swiftly triage and resolve high-priority bugs.</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Sr. Software Engineer</h3>
+            <div class="subhead">
+            <span class="company">Caldwell Trust</span>
+            <small class="dates">
+                <span class="startDate">May 2017</span>
+                <span class="endDate">- Feb 2021</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>Caldwell Trust was founded in November of 1993 to provide personal, traditional and independent trust services. Since that time, the business has continued to grow through individuals who are attracted to a trust service provider that sincerely believes in giving clients what it promises, including quality investment management and estate planning.</p></div>
+          <ul class="highlights">
+            <li>Provided strategic advice to the CTO, offering insights on leveraging cutting-edge technologies that aligned with long-term business goals, project deliverables and achieve key benchmarks.</li>
+            <li>Conducted technical interviews, created technical interview questionnaire and code challenge exercise, where candidates were given the scaffold for a simple React application, which was incomplete, and they were asked to write the code necessary to make it functional. Also, developed training materials, onboarding checklist and documentation necessary to quickly onboard new hires, reducing the process from a couple of weeks to a couple of days.</li>
+            <li>Architectural design and implementation of a robust MFA (Multi-Factor Authentication) system for the client portal. Leveraged the Twilio API to guide users through a 2-step authentication process, enhancing system security and ensuring secure access to the platform.</li>
+            <li>Individual contributor who led development and launch of the primary operations management system. SPA application built on React, React-Router and Axios, as well as a number of packages and libraries to render out the more complex data visualization components. Bootstrap was used for its grid system to create a responsive layout, and SCSS was used for all of the CSS customization.</li>
+            <li>Developed and implemented a robust frontend testing strategy using Jest and React Testing Library, achieving a 95% test coverage and reducing production defects.</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Software Engineer</h3>
+            <div class="subhead">
+            <span class="company">Healthplan Services</span>
+            <small class="dates">
+                <span class="startDate">Aug 2014</span>
+                <span class="endDate">- May 2017</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>HealthPlan Services is the top independent provider of sales, benefits administration, retention, and technology solutions for Fortune 500 insurance and risk management companies like Aetna, AIG, Humana, and Cigna. Their solution suite effectively manages all client operations, administering over 5 million members (2.4 million on exchange) and $12.7 billion in premiums under management.</p></div>
+          <ul class="highlights">
+            <li>Conducted technical interviews, new hire onboarding and training. Developed training materials and onboarding checklist.</li>
+            <li>I assessed project requirements and feasibility. furnished time estimates, reviewed UI/UX designs and testing plans.</li>
+            <li>Manual Adjustments page, HTML and CSS responsive page that allows CSR to make adjustments to the billing history of the members, taking a single page application(SPA) approach, all the user interactions are handled by Jquery and AJAX without refreshing the browser window. PHP and XML were used to consume SOAP services provided by the finance department to perform all the DB transactions.</li>
+            <li>Payment Search page, enhancement to the existing search page. Here I used JQuery&#x27;s DataTables plugin to create a searchable and sortable table that contains all the payments made by the queried member. The backend was written in PHP, which queries directly the DB2 database for the payment information.</li>
+            <li>Provided support for existing products and functionality, as well as coded fixes for issues found in the production or development environments.</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Software Engineer</h3>
+            <div class="subhead">
+            <span class="company">BMV</span>
+            <small class="dates">
+                <span class="startDate">Feb 2014</span>
+                <span class="endDate">- Aug 2014</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>BMV Corp, provides document processing and consulting assistance to those who wish to consolidate their federal student loans. These services result in affordable and manageable monthly loan repayments for clients.</p></div>
+          <ul class="highlights">
+            <li>Responsible for development and maintenance of the web-based student loan system or SLS.</li>
+            <li>Created custom reports tool with advanced HTML, CSS, Jquery and Morris.js that allowed the management team to visualize the profitability of radio ads. The PHP, ZF1 and MySQL backend monitored the influx of new calls and conversion rate after each radio ad campaign.</li>
+            <li>Created user groups management system within SLS, this HTML, CSS and Jquery page allowed the addition and modification of user privileges and access within the SLS system based on a preset pool of user groups.</li>
+            <li>Provided general maintenance and bug fixes for the Leads Management System(LMS).</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Web Developer</h3>
+            <div class="subhead">
+            <span class="company">Morris 4x4</span>
+            <small class="dates">
+                <span class="startDate">Nov 2011</span>
+                <span class="endDate">- Feb 2014</span>
+            </small>
+            </div>
+          </header>
+          <div class="summary"><p>Established in 1990, Morris 4×4 Center has worked to provide Jeep enthusiasts and 4x4 lovers with quality Jeep parts and accessories. Their e-commerce web site includes over 40,000 Jeep parts, accessories and services for Jeep models ranging in years from 1941 to present.</p></div>
+          <ul class="highlights">
+            <li>Responsible for developing the Softtop advisor, useful step-by-step resource for softtop buyers. HTML and CSS cards layout, PHP and MySQL will determine the right softtop for your jeep.</li>
+            <li>Liftkit advisor, just like the softtop advisor will guide and help buyers. Again, HTML and CSS cards layout, PHP and MySQL to determine the right liftkit for the jeep selected.</li>
+            <li>Development of visually appealing HTML and CSS landing pages for specials and promotions, the Christmas blowout sale and the gecko green Jeep giveaway among the most visited.</li>
+          </ul>
+        </section>
+      </section>
+      <section id="education" class="education">
+        <div class="item">
+          <h2>Education</h2>
+          <header>
+              <h3 class="name">IUTIRLA</h3>
+            <small class="dates">
+              <span class="startDate">undefined NaN</span>
+              <span class="endDate"> - undefined NaN</span>
+            </small>
+          </header>
+          <div class="qualification">
+            <span class="studyType">Bachelor Degree</span>
+            <span class="area">Computer Science</span>
+          </div>
+        </div>
+      </section>
+    </div>
+	</body>
+</html>
