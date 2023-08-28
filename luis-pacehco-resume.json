@@ -1,0 +1,151 @@
+{
+  "basics": {
+    "name": "Luis Pacheco",
+    "label": "Tech Lead & Software Engineer",
+    "motto": "Transforming ideas into reality, amplifying team potential and nurturing talent.",
+    "email": "lept.fl.us@gmail.com",
+    "phone": "561-667-1506",
+    "url": "luispacheco.dev",
+    "summary": "Curious by nature and problem solver at heart, driven by technology and continuously looking to innovate. A leader who strives for efficiency and zero technical debt, an engineer who drives projects across the finish line.",
+    "summary2": "I am a seasoned technical lead and software engineer, with over a decade of experience driving impactful projects, transforming ideas into reality, and amplifying team potential. Throughout my career I've been privileged to collaborate with remarkably talented people, and I've endeavored to cultivating skills through mentorship, open dialog and ownership. Always committed to the pursuit of excellence, continuous learning, innovative solutions, and delivering value.",
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "Linkedin",
+        "url": "https://www.linkedin.com/in/lept/"
+      },
+      {
+        "network": "github",
+        "username": "Github",
+        "url": "https://github.com/lept-github"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Technical Skills",
+      "keywords": [
+        "HTML", "CSS", "Javascript", "ReactJs", "React-Query", "Redux", "Zustand", "JSX", "Storybook", "NX", "Axios", "Jest", "RTL", "JSON", "RESTful APIs", "i18n", "npm", "yarn", "MUI", "Bootstrap", "Less", "SCSS", "JQuery", "Kendo UI", "MVC", "OOP", "NodeJs", "ExpressJs", "PHP", "Laravel", "ZF",  "MySQL", "Git", "Bitbucket", "Jira."
+      ]
+    },
+    {
+      "name": "Leadership & Soft Skills",
+      "keywords": [
+        "Customer Focus", "Mentoring and Coaching", "Strategic Thinking", "Empathy", "Collaboration", "Project Management", "Conflict Resolution", "Adaptability", "Risk Management", "Technical Documentation", "Continuous Learning", "Agile Methodologies", "Goal Setting", "Active Listening."
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "crowdstrike",
+      "company": "Crowdstrike",
+      "company_bio": "CrowdStrike’s mission is to stop breaches. Since inception, its market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyber attacks. Working on large scale distributed systems, processing over 1 trillion events a day.",
+      "location": "Remote",
+      "position": "Sr. Software Engineer",
+      "startDate": "Jul 2022",
+      "endDate": "Present",
+      "summary": "In my role as the lead frontend engineer, I guided a team of engineers in executing influential projects, notably is the revitalization of key portions of the Predator platform increasing analyst satisfaction. I mentored peers, promoted collaboration, and analyzed trends to enhance team productivity. I also facilitated communication with stakeholders, coordinated deliveries, and contributed to new feature development in EmberJS.",
+      "highlights": [
+        "Technical frontend lead, providing guidance and expertise to my team. Steering the successful execution of numerous high-impact projects, resulting in significant achievements and positive outcomes. Noteworthy is the successful revamp of key portions of the Predator platform, which led to remarkable reductions in page load times and significantly increasing analyst satisfaction.",
+        "Took on the role of mentor to fellow engineers, through 1-on-1 sessions and code reviews, offered valuable guidance and insights on effective approaches to tackle challenges. Initiated and facilitated consensus building, fostering collaborative decision-making, increasing team's velocity and quality of code as result.",
+        "Applied astute analysis to identify trends and patterns within our backlog, allowing for the discovery of issue clusters. Then, led the team in implementing solutions that maximized the return on time invested, leading to efficient issue resolution and enhanced overall team productivity.",
+        "Engaged in collaboration with stakeholders, designers, and engineers. Setting expectations, removing blockers and ensuring the punctual delivery of new features. Demonstrated effective communication and planning by keeping all involved parties informed about project progress, and calling out any potential conflicts and/or dependencies.",
+        "Actively contributed as a hands-on individual in the product team, spearheading the development of new features using EmberJS."
+      ]
+    },
+    {
+      "id": "bluehost",
+      "company": "Bluehost",
+      "company_bio": "Bluehost is a leading web hosting solutions company. Since its founding in 2003 it has continually innovated new ways to empower people to fully harness the web. Based in Utah, Bluehost provides tools to millions of users throughout the world so anyone, novice or pro, can get on the web and thrive.",
+      "location": "Remote",
+      "position": "Sr. Software Engineer II",
+      "startDate": "Feb 2021",
+      "endDate": "Jul 2022",
+      "summary": "As the team's most experienced frontend engineer, I took the lead on projects with substantial impact. Noteworthy, was the development of a widely adopted React component library to elevate code reusability and ensure uniform user experiences. Beyond this, I devoted time to mentoring junior engineers, facilitating their growth through personalized 1-on-1 sessions, code reviews and hackathons. Furthermore, I actively contributed to the reduction of technical debt and technology roadmaps. Contributed to pivotal SSL and Email products utilizing ReactJS and its eco-system.",
+      "highlights": [
+        "Led frontend team of 3 engineers, driving the successful delivery of multiple impactful projects. Notably, the development of cutting-edge React component library, embraced by all engineers across the organization, resulting in more code reusability and consistency in user experience.",
+        "Mentored junior engineers, engaging in weekly 1-on-1s, hackathons, lunch-and-learn sessions, code reviews, and promoting knowledge sharing. Offering valuable constructive feedback, Guiding them in refining their craft. Resulting in the career growth of two colleagues.",
+        "Architectural design and POC for Zustand state management library implementation using the Facade pattern. This innovative approach significantly improved performance and streamlined data flow. As a result of its success, multiple teams within the organization embraced this solution.",
+        "Strategic thinking guided the development of a comprehensive technology roadmap and backlog, aligning the organization's long-term goals with the adoption of emerging technologies and frameworks. Facilitating the enhancement of product capabilities and scalability.",
+        "Created detailed project plans, defining milestones, and setting realistic goals and timelines. Collaborating with stakeholders, designers and engineers in cross-functional teams. Kept all relevant parties informed about project progress, updates, and potential impacts on schedules.",
+        "Development of new features for SSL and Email products, where React, React-Router, React-Redux, Axios, were some of the basic libraries and packages used. As well as creation and maintenance of unit tests written in Jest and React-Testing-Library.",
+        "Acted as the primary point of contact for critical production incidents, demonstrating strong problem-solving skills to swiftly triage and resolve high-priority bugs."
+      ]
+    },
+    {
+      "id": "caldwell-trust",
+      "company": "Caldwell Trust",
+      "company_bio": "Caldwell Trust was founded in November of 1993 to provide personal, traditional and independent trust services. Since that time, the business has continued to grow through individuals who are attracted to a trust service provider that sincerely believes in giving clients what it promises, including quality investment management and estate planning.",
+      "location": "FL & Remote",
+      "position": "Sr. Software Engineer",
+      "startDate": "May 2017",
+      "endDate": "Feb 2021",
+      "summary": "I provided advise to the CTO, ensuring that our technological initiatives were in harmony with our overarching long-term business objectives. Additionally, I led candidate's technical interviews, optimized onboarding processes, and conceptualized a robust MFA system to bolster security measures. Had pivotal role, initiating and driving the development of our operations management system using ReactJS. Lastly, I developed a comprehensive testing strategy that achieved a test coverage of 95% using Jest and RTL.",
+      "highlights": [
+        "Provided strategic advice to the CTO, offering insights on leveraging cutting-edge technologies that aligned with long-term business goals, project deliverables and achieve key benchmarks.",
+        "Conducted technical interviews, created technical interview questionnaire and code challenge exercise, where candidates were given the scaffold for a simple React application, which was incomplete, and they were asked to write the code necessary to make it functional. Also, developed training materials, onboarding checklist and documentation necessary to quickly onboard new hires, reducing the process from a couple of weeks to a couple of days.",
+        "Architectural design and implementation of a robust MFA (Multi-Factor Authentication) system for the client portal. Leveraged the Twilio API to guide users through a 2-step authentication process, enhancing system security and ensuring secure access to the platform.",
+        "Individual contributor who led development and launch of the primary operations management system. SPA application built on React, React-Router and Axios, as well as a number of packages and libraries to render out the more complex data visualization components. Bootstrap was used for its grid system to create a responsive layout, and SCSS was used for all of the CSS customization.",
+        "Developed and implemented a robust frontend testing strategy using Jest and React Testing Library, achieving a 95% test coverage and reducing production defects."
+      ]
+    },
+    {
+      "id": "healthplan-services",
+      "company": "Healthplan Services",
+      "company_bio": "HealthPlan Services is the top independent provider of sales, benefits administration, retention, and technology solutions for Fortune 500 insurance and risk management companies like Aetna, AIG, Humana, and Cigna. Their solution suite effectively manages all client operations, administering over 5 million members (2.4 million on exchange) and $12.7 billion in premiums under management.",
+      "location": "FL",
+      "position": "Software Engineer",
+      "startDate": "Aug 2014",
+      "endDate": "May 2017",
+      "summary": "Conducted technical interviews, new hire onboarding, and coaching, including the creation of training and onboarding materials. I assessed project requirements and feasibility. Provided time estimates, reviewed UI/UX designs and testing plans. A notable project involved the creation of the Manual Adjustments page. Using HTML, CSS, jQuery, and AJAX for billing history adjustments. Another project improved the Payment Search page by incorporating jQuery's DataTables plugin for a searchable, sortable payment table, with PHP handling backend queries. Additionally, I offered ongoing support, addressing issues in existing products in both production and development environments.",
+      "highlights": [
+        "Conducted technical interviews, new hire onboarding and training. Developed training materials and onboarding checklist.",
+        "I assessed project requirements and feasibility. furnished time estimates, reviewed UI/UX designs and testing plans.",
+        "Manual Adjustments page, HTML and CSS responsive page that allows CSR to make adjustments to the billing history of the members, taking a single page application(SPA) approach, all the user interactions are handled by Jquery and AJAX without refreshing the browser window. PHP and XML were used to consume SOAP services provided by the finance department to perform all the DB transactions.",
+        "Payment Search page, enhancement to the existing search page. Here I used JQuery's DataTables plugin to create a searchable and sortable table that contains all the payments made by the queried member. The backend was written in PHP, which queries directly the DB2 database for the payment information.",
+        "Provided support for existing products and functionality, as well as coded fixes for issues found in the production or development environments."
+      ]
+    },
+    {
+      "id": "bmv",
+      "company": "BMV",
+      "company_bio": "BMV Corp, provides document processing and consulting assistance to those who wish to consolidate their federal student loans. These services result in affordable and manageable monthly loan repayments for clients.",
+      "location": "FL",
+      "position": "Software Engineer",
+      "startDate": "Feb 2014",
+      "endDate": "Aug 2014",
+      "summary": "I handled development and upkeep of a web-based student loan system (SLS). Also, designed a custom reports tool using HTML, CSS, jQuery, and Morris.js to visualize radio ad profitability, with PHP, ZF1, and MySQL backend tracking campaign performance. Additionally, I developed a user groups management system within SLS, enabling access based on preset user groups. I also conducted maintenance and resolved bugs for the Leads Management System (LMS).",
+      "highlights": [
+        "Responsible for development and maintenance of the web-based student loan system or SLS.",
+        "Created custom reports tool with advanced HTML, CSS, Jquery and Morris.js that allowed the management team to visualize the profitability of radio ads. The PHP, ZF1 and MySQL backend monitored the influx of new calls and conversion rate after each radio ad campaign.",
+        "Created user groups management system within SLS, this HTML, CSS and Jquery page allowed the addition and modification of user privileges and access within the SLS system based on a preset pool of user groups.",
+        "Provided general maintenance and bug fixes for the Leads Management System(LMS)."
+      ]
+    },
+    {
+      "id": "morris-4x4",
+      "company": "Morris 4x4",
+      "company_bio": "Established in 1990, Morris 4×4 Center has worked to provide Jeep enthusiasts and 4x4 lovers with quality Jeep parts and accessories. Their e-commerce web site includes over 40,000 Jeep parts, accessories and services for Jeep models ranging in years from 1941 to present.",
+      "location": "FL",
+      "position": "Web Developer",
+      "startDate": "Nov 2011",
+      "endDate": "Feb 2014",
+      "summary": "I developed the Softtop Advisor, a resource aiding softtop buyers select a suitable softtop for their Jeep. Utilizing HTML and CSS card layouts, then PHP and MySQL to fetch the data. Similarly, developed the Liftkit Advisor which offered guidance for liftkit selection. I also created eye-catching landing pages for popular promotions and events. Noteworthy were the Christmas sale pages and gecko green Jeep giveaway.",
+      "highlights": [
+        "Responsible for developing the Softtop advisor, useful step-by-step resource for softtop buyers. HTML and CSS cards layout, PHP and MySQL will determine the right softtop for your jeep.",
+        "Liftkit advisor, just like the softtop advisor will guide and help buyers. Again, HTML and CSS cards layout, PHP and MySQL to determine the right liftkit for the jeep selected.",
+        "Development of visually appealing HTML and CSS landing pages for specials and promotions, the Christmas blowout sale and the gecko green Jeep giveaway among the most visited."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IUTIRLA",
+      "area": "Computer Science",
+      "studyType": "Bachelor Degree",
+      "startDate": "Sep 2002",
+      "endDate": "Jul 2006",
+      "location": "Caracas, Venezuela"
+    }
+  ]
+}
